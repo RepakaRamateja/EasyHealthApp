@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:background="@drawable/nav_header">
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/profile_pic"
+
+        android:src="@drawable/profilepic"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="20dp" />
+
+
+</RelativeLayout>
+
+
+

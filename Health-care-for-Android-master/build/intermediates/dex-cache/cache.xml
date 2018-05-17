@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\rmuth\Desktop\Health-care-for-Android-master\Health-care-for-Android-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\rmuth\Desktop\Health-care-for-Android-master\Health-care-for-Android-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_4524a577fda9f26afca156e8dcb5c7f7a871d0a4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rmuth\Desktop\Health-care-for-Android-master\Health-care-for-Android-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bb7d72f83a149c7239a76acfcd30c2d4bab3e4a9">
+        <dex dex="C:\Users\rmuth\Desktop\Health-care-for-Android-master\Health-care-for-Android-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_e3667e4a655e7373f4bc82b599d8ddc07c1db684\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rmuth\Desktop\Health-care-for-Android-master\Health-care-for-Android-master\app\libs\YouTubeAndroidPlayerApi.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
+        <dex dex="C:\Users\rmuth\Desktop\Health-care-for-Android-master\Health-care-for-Android-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\YouTubeAndroidPlayerApi_09000c09501f9623f31f2b3511a1c2e245908e9c\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,37 @@
+<resources>
+
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">efK08GFEEpuz0IEViSEYXDAPcLUQn3e8QYbybeW2</string>
+    <string name="back4app_client_key">4yQ26Qtl8zkzoUBKs7hCsh01l5c4zqlR6QZVnRF6</string>
+
+    <string name="app_name">EasyHealth</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_enter_email">EnterEmail</string>
+    <string name="title_activity_enter_name">EnterName</string>
+    <string name="title_activity_enter_password">EnterPassword</string>
+    <string name="title_activity_enter_user_type">EnterUserType</string>
+    <string name="title_activity_enter_speciality">EnterSpeciality</string>
+    <string name="title_activity_enter_hospital_det">EnterHospitalDet</string>
+    <string name="title_activity_doctor_home">DoctorHome</string>
+    <string name="title_activity_patient_home">PatientHome</string>
+    <string name="title_activity_display_patient">DisplayPatient</string>
+    <string name="title_activity_write_prescription">WritePrescription</string>
+    <string name="title_activity_display_doc">DisplayDoc</string>
+    <string name="title_activity_make_appointment">MakeAppointment</string>
+    <string name="title_activity_display_patient_appointments">DisplayPatientAppointments</string>
+    <string name="title_activity_patient_prescriptions">PatientPrescriptions</string>
+    <string name="title_activity_patient_navigation_drawer">PatientNavigationDrawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_patient_home2">PatientHome2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_nurse_navigation_drawer">NurseNavigationDrawer</string>
+    <string name="title_activity_nurse_home">NurseHome</string>
+    <string name="title_activity_nurse_view_prescriptions">NurseViewPrescriptions</string>
+
+</resources>

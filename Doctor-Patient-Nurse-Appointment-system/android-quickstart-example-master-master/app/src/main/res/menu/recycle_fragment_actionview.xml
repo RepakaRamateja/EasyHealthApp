@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recycle_fragment_actionview"
+    tools:context="com.SyracuseUniversity.jashwanthreddy.happynest.MainActivity">
+    <item
+        android:id="@+id/recycle_fragment_searchitem"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:orderInCategory="100"
+        android:icon="@drawable/search"
+        android:title="Search_recycleview">
+    </item>
+</menu>

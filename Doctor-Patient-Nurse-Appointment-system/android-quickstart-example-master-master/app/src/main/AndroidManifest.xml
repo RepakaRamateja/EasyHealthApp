@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.back4app.quickstartexampleapp">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+
+    <permission android:name="com.back4app.quickstartexampleapp.permission.C2D_MESSAGE"
+        android:protectionLevel="signature"/>
+    <uses-permission android:name="com.back4app.quickstartexampleapp.permission.C2D_MESSAGE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.parse.SERVER_URL"
+            android:value="@string/back4app_server_url" />
+        <meta-data
+            android:name="com.parse.APPLICATION_ID"
+            android:value="@string/back4app_app_id" />
+        <meta-data
+            android:name="com.parse.CLIENT_KEY"
+            android:value="@string/back4app_client_key" />
+
+        <activity
+            android:name=".EnterEmail"
+            android:label="@string/title_activity_enter_email"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EnterName"
+            android:label="@string/title_activity_enter_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EnterPassword"
+            android:label="@string/title_activity_enter_password"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EnterUserType"
+            android:label="@string/title_activity_enter_user_type"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EnterSpeciality"
+            android:label="@string/title_activity_enter_speciality"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EnterHospitalDet"
+            android:label="@string/title_activity_enter_hospital_det"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DoctorHome"
+            android:label="@string/title_activity_doctor_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DisplayPatient"
+            android:label="@string/title_activity_display_patient"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WritePrescription"
+            android:label="@string/title_activity_write_prescription"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DisplayDoc"
+            android:label="@string/title_activity_display_doc"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MakeAppointment"
+            android:label="@string/title_activity_make_appointment"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DisplayPatientAppointments"
+            android:label="@string/title_activity_display_patient_appointments"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PatientPrescriptions"
+            android:label="@string/title_activity_patient_prescriptions"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PatientNavigationDrawer"
+            android:label="@string/title_activity_patient_navigation_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PatientHome2"
+            android:label="@string/title_activity_patient_home2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NurseNavigationDrawer"
+            android:label="@string/title_activity_nurse_navigation_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".NurseReportsToDoctor" />
+        <activity
+            android:name=".NurseHome"
+            android:label="@string/title_activity_nurse_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NurseViewPrescriptions"
+            android:label="@string/title_activity_nurse_view_prescriptions"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <meta-data android:name="com.parse.push.gcm_sender_id"
+            android:value="id:1030057213987"/>
+        <service android:name="com.parse.PushService" />
+        <receiver android:name="com.parse.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <category android:name="com.back4app.quickstartexampleapp" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.parse.ParsePushBroadcastReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.parse.push.intent.RECEIVE" />
+                <action android:name="com.parse.push.intent.OPEN" />
+                <action android:name="com.parse.push.intent.DELETE" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

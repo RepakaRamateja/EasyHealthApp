@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1030057213987",
+    "firebase_url": "https://easyhealth-1a322.firebaseio.com",
+    "project_id": "easyhealth-1a322",
+    "storage_bucket": "easyhealth-1a322.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030057213987:android:b09d8ae5fbca2799",
+        "android_client_info": {
+          "package_name": "com.back4app.quickstartexampleapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030057213987-l1uemr1p8s3sjau0ek4hlneitf3li9vq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5TDL-NUJuvOJUnkoHJf_QvzJqFvqyw4E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

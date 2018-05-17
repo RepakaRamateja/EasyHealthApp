@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="@color/silver"
+    android:layout_marginTop="80dp">
+    
+
+
+
+<LinearLayout
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:layout_gravity="top"
+    android:layout_marginLeft="90dp"
+    >
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/hospimg"
+        android:gravity="center"/>
+    
+</LinearLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_marginTop="205dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/hname"
+                android:gravity="center"
+                android:textColor="@color/black"/>
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="45dp"
+            android:id="@+id/haddr"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="95dp"
+            android:id="@+id/hcnt"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="140dp"
+            android:id="@+id/hvisit"
+            android:text="Visit Website"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="185dp"
+            android:id="@+id/hvisitlink"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+        
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="430dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/mapview"
+            android:text="Get Map"/>
+
+    </LinearLayout>
+    
+
+
+
+
+
+
+
+
+</FrameLayout>
+
+
+
+
+
+
+
+
+
+
+

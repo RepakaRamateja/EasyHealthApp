@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/activity1"
+            android:checked="false"
+            android:title="Hospitals"
+            android:icon="@drawable/doctor"/>
+
+        <item
+        android:id="@+id/activity2"
+        android:checked="false"
+        android:title="Blood Banks"
+        android:icon="@drawable/bloodbank"/>
+
+        <item
+            android:id="@+id/nearbydonor"
+            android:checked="false"
+            android:title="Nearby Donor"
+            android:icon="@drawable/nearbydonor"/>
+
+        <item
+            android:id="@+id/logout"
+            android:checked="false"
+            android:title="Log out"
+            android:icon="@drawable/logout"/>
+
+
+
+    </group>
+
+
+</menu>

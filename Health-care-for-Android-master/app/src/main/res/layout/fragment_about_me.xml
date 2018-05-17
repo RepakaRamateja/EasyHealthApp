@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:id="@+id/about"
+    tools:context="com.assignment3.manojkulkarni.navigation.AboutMe">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="390dp"
+        android:layout_height="50dp"
+        android:text="Phone: (315) 913-9344"
+        android:textSize="18dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:text="Address: 114 Hawthorne st, Syracuse,NY"
+        android:layout_width="390dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"/>
+
+</FrameLayout>

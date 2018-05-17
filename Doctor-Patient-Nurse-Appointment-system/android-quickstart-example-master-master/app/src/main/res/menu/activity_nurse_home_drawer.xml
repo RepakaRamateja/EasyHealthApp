@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_nurse_home"
+        android:icon="@mipmap/ic_nurse_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_nurse_prescription"
+        android:icon="@mipmap/ic_patient_rescriptions"
+        android:title="Prescriptions" />
+    <item
+        android:id="@+id/nav_nurse_send_tips"
+        android:icon="@mipmap/ic_health_tips"
+        android:title="HealthTips" />
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@mipmap/ic_logout"
+        android:title="Logout" />
+    </group>
+
+</menu>
